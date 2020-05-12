@@ -24,3 +24,6 @@ yarn-error.log*
 
 #ignore ide
 .idea
+
+#aws logs
+BundleLogs-1589300024240.zip
