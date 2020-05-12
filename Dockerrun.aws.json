@@ -6,28 +6,28 @@
       "image": "inkwebable/multi-client",
       "hostname": "client",
       "essential": false,
-      "memory": 256
+      "memory": 240
     },
     {
       "name": "server",
       "image": "inkwebable/multi-server",
       "hostname": "api",
       "essential": false,
-      "memory": 256
+      "memory": 240
     },
     {
       "name": "worker",
       "image": "inkwebable/multi-worker",
       "hostname": "worker",
       "essential": false,
-      "memory": 256
+      "memory": 240
     },
     {
       "name": "nginx",
       "image": "inkwebable/multi-nginx",
       "hostname": "nginx",
       "essential": true,
-      "memory": 256,
+      "memory": 240,
       "portMappings": [
         {
           "hostPort": 80,
