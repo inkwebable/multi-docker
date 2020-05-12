@@ -17,7 +17,7 @@ after_success:
   # log into the docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   # push the images to docker hub
-  - docker push inkwebable/multi-client
-  - docker push inkwebable/multi-nginx
-  - docker push inkwebable/multi-server
-  - docker push inkwebable/multi-worker
+  - docker push inkwebable/images/multi-client
+  - docker push inkwebable/images/multi-nginx
+  - docker push inkwebable/images/multi-server
+  - docker push inkwebable/images/multi-worker
